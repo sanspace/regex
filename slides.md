@@ -3,7 +3,7 @@
 
 ---
 
-## Why RegEx?
+#### Why RegEx?
 
   - Unbelievably Powerful
   - highly reusable and highly portable
@@ -12,7 +12,7 @@
 
 ---
 
-## What is RegEx?
+#### What is RegEx?
 
 A pattern matching language. Yes, a language!
 
@@ -22,7 +22,7 @@ There's a beautiful language behind that obfuscated mess of characters.
 
 ---
 
-## Simple Expressions
+#### Simple Expressions
 
 Let us start with basic patterns without weird characters.
 
@@ -32,7 +32,7 @@ a thing, followed by another thing, followed another thing!
 
 ---
 
-## Simple Expressions
+#### Simple Expressions
 
 | pattern | matches |
 | --- | --- |
@@ -42,7 +42,7 @@ a thing, followed by another thing, followed another thing!
 
 ---
 
-## Meta characters
+#### Meta characters
 
 Characters with special meaning to them.
 
@@ -50,7 +50,7 @@ Characters with special meaning to them.
 
 ---
 
-## Match Any Character with `.`
+#### Match Any Character with `.`
 
 Matches any character. (Wild card)
 
@@ -58,7 +58,7 @@ Matches any character. (Wild card)
 
 ---
 
-## Line Anchors: `^` and `$`
+#### Line Anchors: `^` and `$`
 
 `^` - Start of Line; `$` - End of Line
 
@@ -71,7 +71,7 @@ Matches any character. (Wild card)
 
 ---
 
-## Character Class: `[]`
+#### Character Class: `[]`
 
 match any one of several characters.
 
@@ -81,7 +81,7 @@ If you use `[^...]` instead of `[...]`, the class matches any character that's n
 
 ---
 
-## Character Class Metacharacter: `-`
+#### Character Class Metacharacter: `-`
 
 specify range between two characters
 
@@ -95,7 +95,7 @@ specify range between two characters
 
 ---
 
-## Alternation Metacharacter: `|`
+#### Alternation Metacharacter: `|`
 
 `|` means `either` - combines two expressions into one
 
@@ -103,7 +103,7 @@ specify range between two characters
 
 ---
 
-## Matching Optional Items: `?`
+#### Matching Optional Items: `?`
 
 placed after a character that is allowed, but not required, at a certain position in an expression.
 
@@ -113,7 +113,7 @@ placed after a character that is allowed, but not required, at a certain positio
 
 ---
 
-## Other Quantifiers: `+` and `*`
+#### Other Quantifiers: `+` and `*`
 
 number of times the preceding character can appear in an expression
 
@@ -125,7 +125,7 @@ number of times the preceding character can appear in an expression
 
 ---
 
-## Interval Quantifier: `{}`
+#### Interval Quantifier: `{}`
 
 `{min,max}` metasequence specifies number of times an item can match
 
@@ -133,7 +133,7 @@ number of times the preceding character can appear in an expression
 
 ---
 
-## Escape Character: `\`
+#### Escape Character: `\`
 
 `\` escapes metacharacters so you can match those in patterns.
 
@@ -141,7 +141,7 @@ number of times the preceding character can appear in an expression
 
 ---
 
-## Paranthesis for Grouping: `()`
+#### Paranthesis for Grouping: `()`
 
 `http://([^/]+)` - matches the domain part alone.
 
@@ -153,7 +153,7 @@ number of times the preceding character can appear in an expression
 
 ---
 
-## Examples - Username
+#### Examples - Username
 
 Requirements
   - Alphanumeric
@@ -164,25 +164,25 @@ Requirements
 
 ---
 
-## Match an IP address
+#### Match an IP address
 
 169.254.169.254
 
 ---
 
-## Not so fast
+#### Not so fast
 
 > Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems.
 
 ---
 
-## Not so fast
+#### Not so fast
 
 > not that regular expressions are evil, per se, but that __overuse__ of regular expressions is evil.
 
 ---
 
-## Not so fast
+#### Not so fast
 
   - Know the flavors of different programming languages
   - Know what you are doing
@@ -190,14 +190,14 @@ Requirements
 
 ---
 
-## References
+#### References
 
 - [Interactive Tutorial](http://regexone.com/)
 - [Playground (dojo)](https://regex101.com/)
 
 ---
 
-## Credits
+#### Credits
 
 - [Coding Horror Blog](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 - [Bare Minimum Every Programmer Should Know](http://web.archive.org/web/20090226052234/http://immike.net/blog/2007/04/06/the-absolute-bare-minimum-every-programmer-should-know-about-regular-expressions/)
