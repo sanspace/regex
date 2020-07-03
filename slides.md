@@ -99,7 +99,7 @@ specify range between two characters
 
 `|` means `either` - combines two expressions into one
 
-`Mike` and `Michael` are separate, but `Mike|Micheal` is one that matches either.
+`Mike` and `Michael` are separate, but `Mike|Michael` is one that matches either.
 
 ---
 
